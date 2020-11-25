@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 header nav {
 	width: 100%;
 	border: 1px solid grey;
@@ -74,18 +73,15 @@ header nav .btnsearch:hover , header nav .btnlogin:hover{
 
 header nav label #btn, header nav label #cancel {
 	color: black;
-	font-size: 18px;
-	float: right;
-	/* line-height: 80px; */
-	margin-right: 20px;
-	cursor: pointer;
-	display: none;
-	margin-top: 21px;
+ font-size: 19px;
+ float: right;
+ 
+ margin-right: 20px;
+ cursor: pointer;
+ display: none;
+ margin-top: 20px;
 
 }
-header nav label #btn h5, header nav label #cancel h5 {
-	margin-left: -15px;
-   }
 
 header nav #check {
 	display: none;
@@ -96,22 +92,11 @@ header nav ul li .arrowdown-design {
 	visibility: visible;
 }
 header nav ul li .arrowright-design {
-	/* margin-left: 10px; */
+	
 	visibility: hidden;
 }
 
-/* header nav ul li .resources { */
-	/* display: none; */
-	/* visibility: hidden; */
-/* }  */
 
-/* .arrow-design1 {
-	margin-right: 10px;
-} */
-
-/* .resources, .solutions, .networks {
-	display: none;
-} */
 
 .main-menu {
 	display: none;
@@ -125,15 +110,14 @@ header nav ul li .arrowright-design {
 	background-color: #0a0347;
 	width: 350px;
 	float: left;
-	/* height: 100vh; */
 	height: 140vh;
 
  }
 
  .solutions ul, .resources ul, .networks ul{
-	/* width: auto; */
+	
 	height: 100vh;
-	/* margin-top: 30px; */
+	
 	padding: 15px 50px 40px 50px;
 }
 
@@ -144,7 +128,7 @@ header nav ul li .arrowright-design {
 }
 
 .solutions ul li a, .resources ul li a, .networks ul li a {
-	/* font-size: 20px; */
+	
 	color: white;
 	text-decoration: none;
 }
@@ -156,7 +140,7 @@ header nav ul li .arrowright-design {
     left: 50px;
     color: orange;
 }
-.solutions .solutions-dropdown li:hover
+.solutions .solutions-dropdown:hover
 {
 color:orange;
 }
@@ -164,26 +148,25 @@ color:orange;
 .mainmenu-heading {
 	color: white;
 	padding: 40px 10px 0px 50px;
-	/* padding: 10px; */
-    /* border-top: 1px solid orangered;	 */
+	
     font-weight: lighter;
 } 
 div ul li i{
 	color: white;
 	float: right;
 	margin-top: 5px;
-	/* margin-right: 5px; */
+	
 
 }
 .solutions-content {
-	/* float: right; */
+	
 	background-color: #e8f0f5;
 	height: 100vh;
 }
 .solutions-content .solution-content-horizontal-line
 {
     width: 13px;
-    /* margin-top: 131px; */
+   
     position: relative;
     top: 37px;
     left: 29px;
@@ -257,19 +240,15 @@ header nav .main-nav .btnlogin1
 	header nav #check:checked ~ label #cancel {
 		display: block;
 		/* position: absolute; */
-		position: relative;
-    top: 2px;
 	}
+	header nav label #btn h5, header nav label #cancel h5 {
+		margin-left: -15px;
+	   }
 
 	header nav .btnsearch {
 		float: right;
 		left: -70px;
 	}
-
-	.arrow-design1 {
-		display: flex;
-		margin-left: 15px;
-		}
 
 	header nav .btnlogin {
 		/* float: right;
@@ -281,7 +260,10 @@ header nav .main-nav .btnlogin1
 		left: 0;
 		/* top: 420px; */
 	}
-	
+	.arrow-design1 {
+		display: flex;
+		margin-left: 15px;
+		}
     
 
 	header nav ul li .arrowdown-design {

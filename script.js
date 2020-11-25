@@ -173,16 +173,16 @@ $('.paymentsolutions-menu').click(mediaQuery1)
 // });
 
 
-jQuery(function () {
-    jQuery('.solution-tab').click(function () {
+// jQuery(function () {
+//     jQuery('.solution-tab').click(function () {
   
-      jQuery('.solutions').show();
-      jQuery('.solutions-content').show();
+//       jQuery('.solutions').show();
+//       jQuery('.solutions-content').show();
      
 
   
-    });
-  });
+//     });
+//   });
 
 
   // jQuery(function () {
